@@ -125,8 +125,6 @@ spec:
           value: {{ .Values.sourcerecordconverter | quote }}
         - name: CONNECTOR_CONNECT_FTP_MAX_BACKOFF
           value: {{ .Values.maxBackoff | quote }}
-        - name: CONNECTOR_CONNECT_FTP_PROTOCOL
-          value: {{ .Values.protocol | quote }}
         - name: CONNECTOR_CONNECT_FTP_MONITOR_UPDATE
           value: {{ .Values.monitorUpdate | quote }}
         - name: CONNECTOR_CONNECT_FTP_PASSWORD

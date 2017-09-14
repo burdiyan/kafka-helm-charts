@@ -79,9 +79,6 @@ sourcerecordconverter: com.datamountaineer.streamreactor.connect.ftp.source.NopS
 # maxBackoff on failure, exponentially backoff to at most this ISO8601 duration type: STRING importance: HIGH
 maxBackoff: PT30M
 
-# protocol FTPS or FTP protocol type: STRING importance: LOW
-protocol: ftp
-
 # monitorUpdate comma separated lists of path:destinationtopic; whole file is tracked type: LIST importance: HIGH
 monitorUpdate: 
 
